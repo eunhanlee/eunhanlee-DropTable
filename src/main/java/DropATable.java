@@ -28,7 +28,7 @@ public class DropATable {
      *      |'Kashmir'          |'Led Zeppelin'         |
      */
     public void problem1(){
-        String sql = FileUtil.parseSQLFile("problem1.sql");
+        String sql = "drop table song;";
 
         try {
             Connection connection = ConnectionUtil.getConnection();
